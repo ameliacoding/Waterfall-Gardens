@@ -145,6 +145,13 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 	text-align:left;
 	text-decoration: none;
 }
+#menu_content h4{
+	display:block;
+	float:left;
+	width: 100%;
+	margin: 0 0 1.15em 0;
+}
+
 .menu_title h2 {
 	display: block;
 	width: 100%;
