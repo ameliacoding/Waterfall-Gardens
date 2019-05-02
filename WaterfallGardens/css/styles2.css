@@ -32,6 +32,9 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 	text-decoration: none;
 }
 
+h4:hover {
+cursor:pointer;
+}
 /*Index Header Content*/
  #header{
 	display: block;
