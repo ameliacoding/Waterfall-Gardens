@@ -522,13 +522,13 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 		width: 100%;
 		height:auto;
 		float: left;
-		padding: 0 0 40px 40px;
+		padding: 40px 0 40px 40px;
 		position: relative;
 		font-family: 'Montserrat:700', sans-serif;
-		font-size: 30px;
-		line-height: 40px;
+		font-size: 25px;
+		line-height: 30px;
 		color: black;
-		letter-spacing: 5px;
+		letter-spacing: 3px;
 		text-align: left;
 		text-decoration: none;
 	}
@@ -553,9 +553,9 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 		width: 100%;
 		height:auto;
 		position: relative;
-		padding: 0 185px 0 0;
+		padding: 0 115px 0 0;
 		font-family: 'Montserrat:400', sans-serif;
-		font-size: 18px;
+		font-size: 14px;
 		line-height: 45px;
 		color: black;
 		letter-spacing: 2px;
@@ -564,7 +564,7 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 	}
 	.actions a{
 		display: inline-block;
-		width:20%;
+		width:30%;
 		margin-left: 28%;
 		margin-right:30%;
 		height:auto;
