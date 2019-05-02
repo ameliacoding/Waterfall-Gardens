@@ -7,7 +7,6 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 /* ---------------------------- */
 
 @media screen and (max-width:1540px){
-
 .page {
 	display: block;
 	width:100%;
@@ -24,66 +23,74 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 	position: relative;
 	float: left;
 	background-color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat:400', sans-serif;
 	font-size: 13px;
 	line-height: 35px;
 	color: black;
 	text-align:left;
 	text-decoration: none;
 }
-
 /*Index Header Content*/
  #header{
 	display: block;
 	width:100%;
 	height: auto;
-	padding: 20px 0;
+	padding: 20px;
 	float: left;
 	background-color: #fae355;
 }
+
 .nav_bars {
-	display: block;
-	width:15%;
-	height: auto;
-	float: left;
-	padding: 25px 25px;
-	position: relative;
+	display:none;
 }
 .nav_bars i{
-    display: block;
-	width:55%;
-    height:auto;
-	margin-left: 10%;
-	margin-right: 20%;
-	color: black;
+    display:none;
+}
+.nav_bars_u {
+	display: block;
+	width:10%;
+	height: auto;
+	margin-left: 1%;
+	margin-right: 8%;
+	float: left;
 	padding: 25px;
+	position: relative;
+}
+.nav_bars_u i{
+	display: block;
+	width:100%;
+	height: auto;
+	color: black;
 	font-size: 35px;
-	line-height: 15px;
+	line-height: 65px;
 	text-align: center;
 }
 .menu_bars {
 	display: block;
-    width:80%;
-	margin-right: 25px;
+    width:65%;
+	margin-left: 10%;
   	height: auto;
   	float: right;
-	padding: 25px 25px 25px 250px;
+	padding: 25px 0px 25px 25px;
   	position: relative;
 }
 .menu_bars a {
 	display: block;
-	width:25%;
-	margin:auto;
+	width:20%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 	height: auto;
 	float: left;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat:400', sans-serif;
 	font-size: 20px;
 	line-height: 65px;
 	color: black;
 	text-align: center;
 	text-decoration: none;
 }
-
+.restaurant_name{
+	display: none;
+}
  /* About Page Content*/
 #about_content{
 	display: block;
