@@ -3,43 +3,29 @@
 /* ---------------------------- */
 *{box-sizing: border-box;}
 html,body{margin:0;}
-div,section,header,footer,nav{display:block;float:left;width:100%;position:relative;}
+div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;position:relative;}
 /* ---------------------------- */
-
 @media screen and (max-width:1540px){
 .page {
-	display: block;
-	width:100%;
-	height:auto;
-	margin:0;
-	float: left;
 	position: absolute;
 }
 .container {
-	display: block;
-	width: 100%;
-	margin: 0;
-	height:auto;
-	position: relative;
-	float: left;
 	background-color: white;
-	font-family: 'Montserrat:400', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 	line-height: 35px;
 	color: black;
 	text-align:left;
 	text-decoration: none;
 }
+ h4:hover {
+	cursor:pointer;
+}
 /*Index Header Content*/
  #header{
-	display: block;
-	width:100%;
-	height: auto;
 	padding: 20px;
-	float: left;
 	background-color: #fae355;
 }
-
 .nav_bars {
 	display:none;
 }
@@ -47,39 +33,28 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
     display:none;
 }
 .nav_bars_u {
-	display: block;
 	width:10%;
-	height: auto;
 	margin-left: 1%;
 	margin-right: 8%;
-	float: left;
 	padding: 25px;
-	position: relative;
 }
 .nav_bars_u i{
-	display: block;
 	width:100%;
-	height: auto;
 	color: black;
 	font-size: 35px;
 	line-height: 65px;
 	text-align: center;
 }
 .menu_bars {
-	display: block;
     width:65%;
 	margin-left: 10%;
-  	height: auto;
   	float: right;
 	padding: 25px 0px 25px 25px;
-  	position: relative;
 }
 .menu_bars a {
-	display: block;
 	width:20%;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
-	height: auto;
 	float: left;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 20px;
@@ -93,187 +68,57 @@ div,section,header,footer,nav{display:block;float:left;width:100%;position:relat
 }
  /* About Page Content*/
 #about_content{
-	display: block;
-    width:40%;
+	width:40%;
  	margin-left: 5%;
  	margin-right: 5%;
-	height: auto;
 	padding: 30px;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 35px;
-	color: black;
-	text-align:left;
-	text-decoration: none;
 }
 .about_title h2 {
-  	display: block;
-  	width: 100%;
-  	height:auto;
-  	float: left;
-  	position: relative;
-  	font-family: 'Montserrat', sans-serif;
   	font-size: 30px;
   	line-height: 40px;
-  	color: black;
   	letter-spacing: 5px;
-  	text-align: left;
-  	text-decoration: none;
 }
-.about_title h4 {
-    display: block;
-    width: 100%;
-    height:auto;
-    float: left;
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
-    color: black;
-    letter-spacing: 2px;
-    text-align: left;
-    text-decoration: none;
-}
-
 /* Menu Page Content*/
 #menu_content{
-	display: block;
 	width:40%;
-	margin-left: 5%;
- 	margin-right: 5%;
-	height: auto;
+ 	margin-left: 9%;
+ 	margin-right: 1%;
 	padding: 30px;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
-	line-height: 20px;
-	color: black;
-	text-align:left;
-	text-decoration: none;
+	line-height: 35px;
 }
 #menu_content h4{
-	display:block;
-	float:left;
-	width: 100%;
 	margin: 0 0 10px 0;
 }
 #menu_content h4 + div p{
 	margin: 0 0 20px 0;
 }
-
 #menu_content h4 + div{
 	display: none;
 }
-
-h2 .menu_title {
-	display: block;
-	width: 100%;
-	margin:0 0 20px 0;
-	height:auto;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
-	line-height: 30px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: left;
-	text-decoration: none;
-}
-.menu_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	line-height: 20px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: left;
-	text-decoration: none;
-}
-
  /* Contact Page Content*/
 #contact_content{
-	display: block;
-    width:40%;
-    margin-left: 5%;
-    margin-right: 5%;
-	height: auto;
+	width:40%;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
 	padding: 30px;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 20px;
-	color: black;
-	text-align:left;
-	text-decoration: none;
-}
-.contact_title h2 {
-	 display: block;
-	 width: 100%;
-	 height:auto;
-	 float: left;
-	 position: relative;
-	 font-family: 'Montserrat', sans-serif;
-	 font-size: 25px;
-	 line-height: 30px;
-	 color: black;
-	 letter-spacing: 2px;
-	 text-align: left;
-	 text-decoration: none;
-}
-.contact_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	line-height: 20px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: left;
-	text-decoration: none;
 }
 .mapouter{
 	display: block;
 	float: left;
 	position: relative;
-
 }
-
-/* Gallery Page Content*/
-#gallery_content{
-	display: block;
-	width:100%;
-	height: auto;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	line-height: 20px;
-	color: black;
-	text-align:left;
-	text-decoration: none;
-}
-
 .owl-carousel.owl-theme .item{
 	height:300px;
 	display:block;
 	width: 100%;
 	background-position: center;
 	background-size: cover;
-
 }
-
 #owl-demo .item{
   /* margin: 60px; */
 }
@@ -283,47 +128,17 @@ h2 .menu_title {
   height: auto;
 	/* padding: 0 20px */
 }
-
-
-.gallery_title h2 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
-	line-height: 30px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: left;
-	text-decoration: none;
-}
-
-.gallery_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	line-height: 20px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: left;
-	text-decoration: none;
-}
-
 #image_wrap {
 	display: block;
 	width:40%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 1%;
+	margin-right: 9%;
 	height: auto;
-	padding: 30px;
+	padding: 60px 30px 30px 30px;
 	float: left;
 	position: relative;
+	overflow: hidden;
+	background:none;
 }
 img{
 	display: block;
@@ -332,50 +147,29 @@ img{
 	float: left;
 	position: relative;
 }
-
  /*Footer Content*/
 #footer{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
 	padding: 30px 0 40px 0;
 	background-color: #fae355;
 }
-.actions{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-}
-.actions h3{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	padding: 0 185px 0 0;
+h3{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 45px;
-	color: black;
 	letter-spacing: 2px;
-	text-align: center;
 	text-decoration: none;
 }
+.actions h3{
+  text-align: center;
+}
 .actions a{
-	display: inline-block;
-	width:20%;
-	margin-left: 34%;
-	margin-right:30%;
-	height:auto;
-	position: relative;
-	float: none;
+  display: inline-block;
+  width:30%;
+  margin-left: 35%;
+  margin-right:35%;
+  float: none;
 }
 .button {
-	display: block;
-	width: 100%;
 	letter-spacing: 1.6px;
 	border-radius: 6px;
 	text-decoration: none;
@@ -407,109 +201,12 @@ a:hover {
 	-ms-transition: initial;
 	transition: initial;
 }
-
-	/*active span {
-		background:#3EC9A7;
-		border-radius: 6px;
-		color: black;
-		overflow: hidden;
-	} */
-
-
-/* Gallery Page Content*/
-
-/*Footer Content*/
-#footer{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-	padding: 30px 0 40px 0;
-	background-color: #fae355;
 }
-  .actions{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-}
-  .actions h3{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	padding: 0;
-	font-family: 'Montserrat:400', sans-serif;
-	font-size: 18px;
-	line-height: 45px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: center;
-	text-decoration: none;
-}
-  .actions a{
-	display: inline-block;
-	width:30%;
-	margin-left: 35%;
-	margin-right:35%;
-	height:auto;
-	position: relative;
-	float: none;
-}
-  .button {
-	display: block;
-	width: 100%;
-	letter-spacing: 1.6px;
-	border-radius: 6px;
-	text-decoration: none;
-	color: white;
-	text-align: center;
-	font-family: 'Montserrat:400', sans-serif;
-	font-weight: 700;
-	font-size: 12px;
-	background-color: #3EC9A7;
-}
-/* Effects*/
-  i:hover {
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-}
-  a:hover {
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-}
-}
-
-@media screen and (max-width:900px){
+@media screen and (max-width:960px){
 .page {
-	display: block;
-	width:100%;
-	height:auto;
-	margin:0;
-	float: left;
 	position: absolute;
 }
 .container {
-	display: block;
-	width: 100%;
-	margin: 0;
-	height:auto;
-	position: relative;
-	float: left;
 	background-color: white;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 13px;
@@ -520,11 +217,7 @@ a:hover {
 }
 /*Index Header Content*/
 #header{
-	display: block;
-	width:100%;
-	height: auto;
 	padding: 20px 0;
-	float: left;
 	background-color: #fae355;
 }
 .nav_bars {
@@ -534,40 +227,24 @@ a:hover {
     display:none;
 }
 .nav_bars_u {
-	display: block;
 	width:10%;
-	height: auto;
 	margin-left: 1%;
 	margin-right: 8%;
-	float: left;
 	padding: 25px;
-	position: relative;
 }
 .nav_bars_u i{
-	display: block;
-	width:100%;
-	height: auto;
-	color: black;
 	font-size: 35px;
 	line-height: 65px;
 	text-align: center;
 }
 .menu_bars {
-	display: block;
     width:80%;
 	margin: auto;
-  	height: auto;
   	float: right;
-	padding: 25px 25px 25px 25px;
-  	position: relative;
+	padding: 25px;
 }
 .menu_bars a {
-	display: block;
-	width:24%;
-	margin-left: .5%;
-	margin-right: .5%;
-	height: auto;
-	float: left;
+	width:20%;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 20px;
 	line-height: 65px;
@@ -581,131 +258,84 @@ a:hover {
 /* About Page Content*/
 #about_content{
 	display: block;
-	width:80%;
-	margin-left: 10%;
-	margin-right: 10%;
-	height: auto;
-	padding: 30px;
+	width: 42%;
+	margin-left: 5.5%;
+	margin-right: 2.5%;
+	padding: 30px 0px;
 	float: left;
-	position: relative;
+	padding: 30px;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 18px;
 	line-height: 35px;
-	color: black;
 	text-align:left;
 	text-decoration: none;
 }
 .about_title h2 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 30px;
 	line-height: 40px;
-	color: black;
 	letter-spacing: 5px;
 	text-align: left;
 	text-decoration: none;
 }
 .about_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 20px;
 	line-height: 20px;
-	color: black;
 	letter-spacing: 2px;
 	text-align: left;
 	text-decoration: none;
 }
-
 /* Menu Page Content*/
 #menu_content{
 	display: block;
 	width: 42%;
 	margin-left: 5.5%;
 	margin-right: 2.5%;
-	height: auto;
-	padding: 30px 0px;
-	float: left;
-	position: relative;
+	padding: 50px 30px 30px 30px;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 18px;
 	line-height: 20px;
-	color: black;
 	text-align:left;
 	text-decoration: none;
 }
 .menu_title h2 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 25px;
 	line-height: 30px;
-	color: black;
 	letter-spacing: 2px;
 	text-align: left;
 	text-decoration: none;
 }
   .menu_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 20px;
 	line-height: 20px;
-	color: black;
 	letter-spacing: 2px;
 	text-align: left;
 	text-decoration: none;
 }
 /* Contact Page Content*/
   #contact_content{
-	display: block;
   	width: 42%;
   	margin-left: 5.5%;
   	margin-right: 2.5%;
-  	height: auto;
-  	padding: 30px 0px;
-  	float: left;
-  	position: relative;
+  	padding: 60px 30px 30px 30px;
   	font-family: 'Montserrat:400', sans-serif;
   	font-size: 18px;
   	line-height: 20px;
-  	color: black;
   	text-align:left;
   	text-decoration: none;
 }
 .contact_title h2 {
-	 display: block;
-	 width: 100%;
-	 height:auto;
-	 float: left;
-	 position: relative;
 	 font-family: 'Montserrat:700', sans-serif;
 	 font-size: 25px;
 	 line-height: 30px;
-	 color: black;
 	 letter-spacing: 2px;
 	 text-align: left;
 	 text-decoration: none;
 }
 .contact_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 20px;
 	line-height: 20px;
@@ -722,117 +352,22 @@ a:hover {
 	height:auto;
 	position: relative;
 }
-/* Gallery Page Content*/
-
-
-
-/*Footer Content*/
-#footer{
+#image_wrap {
 	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-	padding: 30px 0 40px 0;
-	background-color: #fae355;
- }
-  .actions{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-  }
-  .actions h3{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	padding: 0;
-	font-family: 'Montserrat:400', sans-serif;
-	font-size: 18px;
-	line-height: 45px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: center;
-	text-decoration: none;
- }
-  .actions a{
-	display: inline-block;
-	width:30%;
-	margin-left: 35%;
-	margin-right:35%;
-	height:auto;
-	position: relative;
+	width: 42%;
+	margin-left: 5.5%;
+	margin-right: 2.5%;
+	padding: 60px 30px 30px 30px;
 	float: none;
- }
-  .button {
-	display: block;
-	width: 100%;
-	letter-spacing: 1.6px;
-	border-radius: 6px;
-	text-decoration: none;
-	color: white;
-	text-align: center;
-	font-family: 'Montserrat:400', sans-serif;
-	font-weight: 700;
-	font-size: 12px;
-	background-color: #3EC9A7;
-  }
-/* Effects*/
-  i:hover{
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-  }
-	a:hover {
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-  }
-}
-
-@media screen and (max-width:600px){
-.page {
-	display: block;
-	width:100%;
-	height:auto;
-	margin:0;
-	float: left;
-	position: absolute;
-}
-.container {
-	display: block;
-	width: 100%;
-	margin: 0;
-	height:auto;
 	position: relative;
-	float: left;
-	background-color: white;
-	font-family: 'Montserrat:400', sans-serif;
-	font-size: 13px;
-	line-height: 35px;
-	color: black;
-	text-align:left;
-	text-decoration: none;
+	overflow: hidden;
+	background:none;
 }
+}
+@media screen and (max-width:600px){
 /*Index Header Content*/
 #header{
-	display: block;
-	width:100%;
-	height: auto;
 	padding: 20px 0;
-	float: left;
 	background-color: #fae355;
 }
 .nav_bars {
@@ -850,16 +385,12 @@ a:hover {
 	height:auto;
 	margin-left: 10%;
 	margin-right: 10%;
-	color: black;
 	font-size: 35px;
 	line-height: 65px;
 	text-align: center;
 }
-
 .nav_bars_u {
 	display: none;
-}
-.nav_bars_u i{
 }
 .menu_bars {
 	display: none;
@@ -870,7 +401,6 @@ a:hover {
 .restaurant_name{
 	display: block;
 	width: 70%;
-	height:auto;
 	padding: 25px 15px;
 	float: right;
 	position: relative;
@@ -879,10 +409,7 @@ a:hover {
 	display: block;
 	width: 60%;
 	margin: auto;
-	height:auto;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
-	color: black;
 	font-size: 25px;
 	line-height: 35px;
 	text-align: center;
@@ -890,223 +417,118 @@ a:hover {
 }
 /* About Page Content*/
 #about_content{
-	display: block;
 	width:80%;
 	margin-left: 10%;
 	margin-right: 10%;
-	height: auto;
 	padding: 30px 10px 30px 20px;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 18px;
 	line-height: 20px;
-	color: black;
 	text-align:left;
 	text-decoration: none;
 }
-
 .about_title h2 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 30px;
 	line-height: 40px;
-	color: black;
 	letter-spacing: 5px;
 	text-align: left;
 	text-decoration: none;
 }
 .about_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 20px;
 	line-height: 20px;
-	color: black;
 	letter-spacing: 2px;
 	text-align: left;
 	text-decoration: none;
 }
-
 /* Menu Page Content*/
 #menu_content{
-	display: block;
 	width:80%;
 	margin-left: 10%;
 	margin-right: 10%;
-	height: auto;
 	padding: 30px 10px 30px 20px;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:400', sans-serif;
 	font-size: 18px;
 	line-height: 20px;
-	color: black;
 	text-align:left;
 	text-decoration: none;
 }
 .menu_title h2 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
-	font-size: 25px;
-	line-height: 30px;
-	color: black;
-	letter-spacing: 2px;
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: 5px;
 	text-align: left;
 	text-decoration: none;
-  }
-  .menu_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
+}
+.menu_title h4 {
 	font-family: 'Montserrat:700', sans-serif;
-	font-size: 20px;
-	line-height: 20px;
-	color: black;
-	letter-spacing: 2px;
-	text-align: left;
-	text-decoration: none;
-  }
-/* Contact Page Content*/
-  #contact_content{
-	display: block;
-  	width:80%;
-  	margin-left: 10%;
-  	margin-right: 10%;
-  	height: auto;
-  	padding: 30px 30px;
-  	float: left;
-  	position: relative;
-  	font-family: 'Montserrat:400', sans-serif;
-  	font-size: 18px;
+  	font-size: 20px;
   	line-height: 20px;
-  	color: black;
-  	text-align:left;
+  	letter-spacing: 2px;
+  	text-align: left;
   	text-decoration: none;
-  }
+}
+/* Contact Page Content*/
+#contact_content{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 30px 10px 30px 20px;
+	font-family: 'Montserrat:400', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-align:left;
+	text-decoration: none;
+}
 .contact_title h2 {
-	 display: block;
-	 width: 100%;
-	 height:auto;
-	 float: left;
-	 position: relative;
-	 font-family: 'Montserrat:700', sans-serif;
-	 font-size: 25px;
-	 line-height: 30px;
-	 color: black;
-	 letter-spacing: 2px;
-	 text-align: left;
-	 text-decoration: none;
-  }
-  .contact_title h4 {
-	display: block;
-	width: 100%;
-	height:auto;
-	float: left;
-	position: relative;
+	font-family: 'Montserrat:700', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: 5px;
+	text-align: left;
+	text-decoration: none;
+}
+.contact_title h4 {
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 20px;
 	line-height: 20px;
-	color: black;
 	letter-spacing: 2px;
 	text-align: left;
 	text-decoration: none;
-  }
-  .mapouter{
+}
+.mapouter{
   	display: block;
   	width: 100%;
   	margin-left: auto;
   	margin-right: auto;
   	height:auto;
   	position: relative;
-  }
-
-/* Gallery Page Content*/
-
+}
+#image_wrap {
+  	display: block;
+  	width:45%;
+  	margin:auto;
+  	padding: 0px 0px 30px 0px;
+  	float: none;
+  	position: relative;
+  	overflow: hidden;
+  	background:none;
+}
 /*Footer Content*/
-#footer{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-	padding: 30px 0 40px 0;
-	background-color: #fae355;
- }
-  .actions{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	float: left;
-  }
-  .actions h3{
-	display: block;
-	width: 100%;
-	height:auto;
-	position: relative;
-	padding: 0;
-	font-family: 'Montserrat:400', sans-serif;
+.actions h3{
 	font-size: 18px;
 	line-height: 45px;
-	color: black;
 	letter-spacing: 2px;
-	text-align: center;
-	text-decoration: none;
-  }
-  .actions a{
+}
+.actions a{
 	display: block;
 	width:40%;
 	margin: auto;
 	height:auto;
 	position: relative;
 	float: none;
-  }
-  .button {
-	display: block;
-	width: 100%;
-	letter-spacing: 1.6px;
-	border-radius: 6px;
-	text-decoration: none;
-	color: white;
-	text-align: center;
-	font-family: 'Montserrat:400', sans-serif;
-	font-weight: 700;
-	font-size: 12px;
-	background-color: #3EC9A7;
-  }
-/* Effects*/
-  i:hover{
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-  }
-	a:hover {
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-  }
+}
 }
