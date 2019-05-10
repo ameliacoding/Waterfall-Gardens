@@ -20,33 +20,49 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 	line-height: 35px;
 }
 /*Index Header Content*/
-.container #header{
-	padding: 20px 0;
-	background-color: #fae355;
+#header{
+padding: 20px;
+/* z-index: 10; */
 }
 .nav_bars {
-	display: none;
+	display:none;
 }
 .nav_bars i{
-	display: none;
+	display:none;
 }
 .nav_bars_u {
 	width:10%;
-	margin-left: 1%;
-	margin-right: 8%;
-	padding: 25px;
+	margin-left: 3%;
+	margin-right: 1%;
+	padding: 10px 0;
 }
 .nav_bars_u i{
 	width:100%;
+	color: black;
+	font-size: 35px;
+	line-height: 65px;
+	text-align: center;
+}
+.nav_bars_u2 {
+	width:10%;
+	height: auto;
+	margin-left: 1%;
+	margin-right: 3%;
+	padding: 10px 0;
+	float: right;
+}
+.nav_bars_u2 i{
+	width:100%;
+	color: black;
 	font-size: 35px;
 	line-height: 65px;
 	text-align: center;
 }
 .menu_bars {
-	width:65%;
-	margin-left: 10%;
-	float: right;
-	padding: 25px 0px 25px 25px;
+	display: block;
+	float: left;
+	width:70%;
+	padding: 10px 0px;
 }
 .menu_bars a {
 	width:20%;
@@ -54,11 +70,15 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 	margin-right: 2.5%;
 	float: left;
 	font-family: 'Montserrat:400', sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 65px;
 	color: black;
 	text-align: center;
 	text-decoration: none;
+}
+#welcome{
+	width: 100%;
+	height: 650px;
 }
 .restaurant_name{
 	display: none;
@@ -66,18 +86,16 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 .restaurant_name h2{
 	display: none;
 }
- /* Index Page Content*/
+/* Index Page Content*/
 .title {
-	width:40%;
-	float:right;
-	padding:325px 0 400px 50px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 0px;
+	width:100%;
+	float:left;
+	padding:60px 0px;
 }
 .title h2 {
-	width: 100%;
-	float: left;
+	width: 27%;
+	margin-left:65%;
+	margin-right:8%;
 	font-family: 'Montserrat:700', sans-serif;
 	font-size: 40px;
 	line-height: 50px;
@@ -85,7 +103,7 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 }
 /* Index Footer Content*/
 #footer{
-	padding: 50px 0 100px 0;
+	padding: 50px 0;
 }
 .actions h3{
 	padding: 0 185px 0 0;
@@ -114,16 +132,6 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 	background-color: #3EC9A7;
 }
 /* Effects*/
-i:hover{
-	background:#3EC9A7;
-	border-radius: 6px;
-	color: black;
-	overflow: hidden;
-	-webkit-transition: initial;
-	-moz-transition: initial;
-	-ms-transition: initial;
-	transition: initial;
-}
 a:hover {
 	background:#3EC9A7;
 	border-radius: 6px;
@@ -134,112 +142,132 @@ a:hover {
 	-ms-transition: initial;
 	transition: initial;
 }
+/*Resize to max-width: 960px*/
+@media screen and (max-width:960px){
+/*Index Header Content*/
+.menu_bars a {
+	font-size: 22px;
+	line-height: 68px;
 }
-/*Resize to max-width: 1000px*/
-@media screen and (max-width:1000px){
- /* Index Page Content*/
-.title {
-	width:40%;
-	float:right;
-	padding:150px 0 200px 0;
-}
+/* Index Page Content*/
 .title h2 {
-	padding: 0 0 40px 40px;
 	font-size: 30px;
 	line-height: 40px;
-}
-/* Index Footer Content*/
-#footer{
-	padding: 30px 0 40px 0;
-}
-.actions a{
-	width:20%;
-	margin-left: 28%;
-	margin-right:30%;
-	float: none;
-}
-}
-/*Resize to max-width: 900px*/
-@media screen and (max-width:900px){
-/*Index Header Content*/
-.menu_bars {
-	width:80%;
-	margin: auto;
-	height: auto;
-	float: right;
-	padding: 25px;
-}
-.menu_bars a {
-	width:24%;
-	margin-left: .5%;
-	margin-right: .5%;
-}
- /* Index Page Content*/
-.title {
-	padding:150px 0 250px 0;
-}
-.title h2 {
-	padding: 40px 0 40px 40px;
+	letter-spacing: 3px;
 }
 /* Index Footer Content*/
 .actions h3{
-	padding: 0 115px 0 0;
+	padding: 0 0 0 0;
 	font-size: 14px;
 }
 .actions a{
 	width:30%;
 }
 }
-/*Resize to max-width: 695px*/
-@media screen and (max-width:695px){
+/*Resize to max-width: 780px*/
+@media screen and (max-width:700px){
+#welcome{
+	width: 100%;
+	height: 600px;
+}
+.title h2 {
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+#footer{
+	padding: 30px 0 40px 0;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 45px;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+.actions h3{
+	text-align: center;
+	padding: 0px;
+	margin: auto;
+}
+.actions a{
+	display: inline-block;
+	width:40%;
+	margin-left: 30%;
+	margin-right:30%;
+	float: none;
+}
+.button {
+	letter-spacing: 1.6px;
+	border-radius: 6px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	background-color: #3EC9A7;
+}
+}
+/*Resize to max-width: 639px*/
+@media screen and (max-width:639px){
 .page {
 	background-image: url("../images/mobile-background.jpg");
 }
 /*Index Header Content*/
+#header{
+	padding: 20px 0;
+}
 .nav_bars {
 	display: block;
-	width:20%;
-	margin-left: 6%;
-	padding: 20px 15px 15px 15px;
+	width:10%;
+	margin-left: 3%;
+	margin-right: 1%;
+	padding: 10px 0PX;
+	font-size: 35px;
+	line-height: 65px;
 	text-align: center;
+	float: left;
+	position: relative;
 }
 .nav_bars i{
 	display: block;
 	width:100%;
-	color: black;
-	font-size: 35px;
-	line-height: 65px;
-	text-align: center;
 }
 .nav_bars_u {
-display: none;
+	display:none;
 }
 .nav_bars_u i{
-display: none;
+	display:none;
 }
 /*--dropdown nav button--*/
 div a, .dropbtn {
 	display: inline-block;
-	color: white;
+	width: 100%;
+	color: black;
 	text-align: center;
-	padding: 0px 15px;
+	padding: 10px 0px;
 	text-decoration: none;
 }
 div a:hover, .nav_bars:hover .dropbtn {
 	background-color: #3EC9A7;
+	border-radius: 6px;
 }
 .dropdown-content {
 	display: none;
 	position: absolute;
-	margin-left: 5%;
+	margin-left: 3%;
 	background-color: white;
 	border-radius: 6px;
-	min-width: 160px;
-	z-index: 1;
+	font-size: 20px;
+	line-height: 35px;
+	text-align:left;
+	min-width: 140px;
+	z-index: 2;
 }
 .dropdown-content a {
 	color: black;
-	padding: 5px 10px;
+	padding: 0px 10px;
 	text-decoration: none;
 	display: block;
 	text-align: left;
@@ -252,74 +280,101 @@ div a:hover, .nav_bars:hover .dropbtn {
 }
 /*-- end of dropdown nav button--*/
 .menu_bars {
-display: none;
+	display: none;
 }
 .menu_bars a {
-display: none;
+	display: none;
 }
 .restaurant_name{
 	display: block;
-	width: 70%;
-	padding: 40px 20px 40px 15px;
-	float: right;
+	width:72%;
+	padding: 10px 0px;
 }
-.restaurant_name h2{
+	.restaurant_name h2{
 	display: block;
 	width: 100%;
 	margin: auto;
-	height:auto;
-	position: relative;
 	font-family: 'Montserrat:700', sans-serif;
-	color: black;
-	font-size: 18px;
-	line-height: 20px;
-	text-align: left;
+	font-size: 35px;
+	line-height: 65px;
+	text-align: center;
 	text-decoration: none;
 }
- /* Index Page Content*/
-#welcome{
-	display: block;
-	width:100%;
-	height: auto;
-	padding:150px 0 200px 0;
-	float: left;
-	position: relative;
-}
+/* Index Page Content*/
 .title {
 	display: none;
 }
+.title h2 {
+	display: none;
+}
 /* Index Footer Content*/
-.actions h3{
-	display: block;
-	width: 60%;
-	margin: auto;
-	padding: 0;
-	line-height: 25px;
+#footer{
+	padding: 30px 0 40px 0;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 45px;
 	letter-spacing: 2px;
+	text-decoration: none;
+}
+.actions h3{
+	text-align: center;
+	padding: 0px;
+	margin: auto;
 }
 .actions a{
 	display: inline-block;
-	width:50%;
-	margin-left: 25%;
-	margin-right:25%;
+	width:40%;
+	margin-left: 30%;
+	margin-right:30%;
 	float: none;
 }
 .button {
-	display: block;
-	width: 100%;
 	letter-spacing: 1.6px;
 	border-radius: 6px;
 	text-decoration: none;
 	color: white;
 	text-align: center;
-	font-family: 'Montserrat:400', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
+	line-height: 30px;
 	background-color: #3EC9A7;
+}
+/* Effects*/
+a:hover {
+	background:#3EC9A7;
+	border-radius: 6px;
+	color: black;
+	overflow: hidden;
+	-webkit-transition: initial;
+	-moz-transition: initial;
+	-ms-transition: initial;
+	transition: initial;
+}
+}
+/*Resize to max-width: 560px*/
+@media screen and (max-width:560px){
+/*Index Header Content*/
+.nav_bars {
+	font-size: 25px;
+	line-height: 55px;
+}
+.restaurant_name h2{
+	font-size: 25px;
+	line-height: 55px;
+}
+.button{
+	line-height: 23px;
 }
 }
 /*Resize to max-width: 400px*/
 @media screen and (max-width:400px){
+/*Index Header Content*/
+	.restaurant_name h2{
+	font-size: 20px;
+}
 .actions a{
 	display: inline-block;
 	width:60%;
