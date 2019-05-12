@@ -120,9 +120,8 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 	font-size: 22px;
 	line-height: 20px;
 	margin-bottom: 12px;
-	text-decoration: underline;
-	font-family: 'Montserrat:semi-bold 600', sans-serif;
-	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
 	letter-spacing:normal;
 }
 #contact_content h3{
@@ -131,7 +130,7 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 	margin-top: 10px;
 	margin-bottom: 4px;
 	font-family:'Montserrat', sans-serif;
-	text-align: center;
+	text-align: left;
 	letter-spacing:normal;
 }
 #contact_content p{
@@ -140,7 +139,7 @@ div,section,header,footer,nav{display:block;float:left;width:100%;height:auto;po
 	margin-top: 2px;
 	margin-bottom: 2px;
 	font-family:'Montserrat', sans-serif;
-	text-align: center;
+	text-align: left;
 	letter-spacing:normal;
 }
 .mapouter{
@@ -218,38 +217,58 @@ img{
 	position: relative;
 }
  /*Footer Content*/
-#footer{
-	padding: 30px 0 40px 0;
-	background-color: #fae355;
-}
-h3{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	line-height: 45px;
-	letter-spacing: 2px;
-	text-decoration: none;
-}
-.actions h3{
-  	text-align: center;
-}
-.actions a{
-	display: inline-block;
-	width:30%;
-	margin-left: 35%;
-	margin-right:35%;
-	float: none;
-}
-.button {
-	letter-spacing: 1.6px;
-	border-radius: 6px;
-	text-decoration: none;
-	color: white;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 12px;
-	background-color: #3EC9A7;
-}
+ #footer{
+ 	display: block;
+ 	width: 100%;
+ 	height:auto;
+ 	position: relative;
+ 	float: left;
+ 	padding: 30px 0 100px 0;
+ 	background-color: #fae355;
+ }
+   .actions{
+ 	display: block;
+ 	width: 100%;
+ 	height:auto;
+ 	position: relative;
+ 	float: left;
+ }
+   .actions h3{
+ 	display: block;
+ 	width: 100%;
+ 	height:auto;
+ 	position: relative;
+ 	padding: 0;
+ 	font-family: 'Montserrat:400', sans-serif;
+ 	font-size: 18px;
+ 	line-height: 45px;
+ 	color: black;
+ 	letter-spacing: 2px;
+ 	text-align: center;
+ 	text-decoration: none;
+ }
+   .actions a{
+ 	display: inline-block;
+ 	width:30%;
+ 	margin-left: 35%;
+ 	margin-right:35%;
+ 	height:auto;
+ 	position: relative;
+ 	float: none;
+ }
+   .button {
+ 	display: block;
+ 	width: 100%;
+ 	letter-spacing: 1.6px;
+ 	border-radius: 6px;
+ 	text-decoration: none;
+ 	color: white;
+ 	text-align: center;
+ 	font-family: 'Montserrat:400', sans-serif;
+ 	font-weight: 700;
+ 	font-size: 12px;
+ 	background-color: #3EC9A7;
+ }
  /* Effects*/
 a:hover {
 	background:#3EC9A7;
